@@ -169,15 +169,6 @@
 			<string>Comic Zip</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.macitbetter.cbz-archive</string>
-				<string>public.cbz-archive</string>
-				<string>cx.c3.cbz-archive</string>
-				<string>com.milke.cbz-archive</string>
-				<string>com.bitcartel.comicbooklover.cbz</string>
-				<string>public.archive.cbz</string>
-			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
 			<key>NSPersistentStoreTypeKey</key>
@@ -195,12 +186,6 @@
 			<string>Comic 7-Zip</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.macitbetter.cb7-archive</string>
-				<string>public.cb7-archive</string>
-				<string>cx.c3.cb7-archive</string>
-			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
 			<key>NSPersistentStoreTypeKey</key>
@@ -218,15 +203,6 @@
 			<string>Comic Rar</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.macitbetter.cbr-archive</string>
-				<string>public.cbr-archive</string>
-				<string>cx.c3.cbr-archive</string>
-				<string>com.bitcartel.comicbooklover.cbr</string>
-				<string>com.milke.cbr-archive</string>
-				<string>public.archive.cbr</string>
-			</array>
 			<key>LSTypeIsPackage</key>
 			<false/>
 			<key>NSPersistentStoreTypeKey</key>
