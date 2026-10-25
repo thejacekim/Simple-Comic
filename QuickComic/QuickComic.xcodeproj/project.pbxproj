@@ -229,11 +229,10 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Library/Quicklook;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = QuickComic;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
-				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
@@ -253,11 +252,10 @@
 				INSTALL_PATH = /Library/Quicklook;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = QuickComic;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = qlgenerator;
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -266,7 +264,7 @@
 			buildSettings = {
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -274,10 +272,9 @@
 		2CA326240896AD4900168862 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};

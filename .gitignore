@@ -17,3 +17,6 @@ xcuserdata
 .DS_Store
 profile
 
+
+# Built by scripts/build-frameworks.sh from Vendor/ submodules
+Frameworks/*.framework
